@@ -12,4 +12,24 @@ The defining points of Impressionistic paintings which I aimed to emulate with m
 - An appearance or sense of the shifting of the atmosphere (or the passing of time), rather
 than frozen, finely-focused detail.
 - An 'unfinished' or 'raw' appearance.
+
+Example output:
 ![impressionism-filter](img/impressionism-filter.jpg)
+
+### The Cubism Filter
+This class may be a misnomer, as its results may more closely resemble the Post-Painterly Abstraction movement than Cubism. In any case I think it is probably the least successful of the filters, despite being the most complex and ambitious of the three. The defining features of Cubism which I aimed to emulate with this filter were as follows:
+- An abandonment of perspective.
+- The use of seemingly-random shapes and planes set in a shallow space.
+- A disintegration of the subject, as though 'shattered'.
+
+Example output:
+![cubism-filter](img/cubism-filter.jpg)
+
+### The Abtract Expressionism Filter
+With this class, I attempted to create an effect reminiscent of work such as that of Jason Pollock's, by using randomly-varied lines and bezier anchor/control points to create a frenzied spatter-like effect. As with the Impressionism class, two methods are available: one that applies the effect to the entire canvas automatically, and a second which allows the user to apply it manually. I focussed on emulating one specific style associated with the broader Abstract Expressionist movement, as what united artists of this kind was underlying motive and political views, more so than any distinct visual similarities present in their work. The defining features I limited myself to were therefore as follows:
+- An energetic, frenzied feel to the strokes applied to the canvas.
+- An abstract result (i.e. far removed from the concreteness of the input image).
+- A focus on line and colour over form and subject.
+
+Example output:
+![abstract-expressionism-filter](img/abstract-expressionism-filter.jpg)
