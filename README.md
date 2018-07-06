@@ -1,6 +1,6 @@
-# Generative Art Filters Application
+# Generative Art Filters
 
-A Java desktop app built with Processing that allows you to apply artistic filters to an uploaded image or to a web cam capture.
+Generative Art Filters is a Java desktop app built with Processing that allows you to apply artistic filters to an uploaded image or to a web cam capture.
 
 The application is organised into one primary sketch and three classes, each representing a modern art style and containing the necessary code to implement thefilter methods called in the main sketch. Two external libraries were used, the first (the user-contributed library ControlP5 by Andreas Schlegel) to aid with the construction of the user interface, and the second (the external Video library based on the GStreamer multimedia framework) to permit the user to capture an from a webcam or a camera connected to the computer.
 
@@ -33,3 +33,5 @@ With this class, I attempted to create an effect reminiscent of work such as tha
 
 Example output:
 ![abstract-expressionism-filter](img/abstract-expressionism-filter.jpg)
+
+I was happier with the aesthetic effect produced by this third filter more so than with any of the others.
