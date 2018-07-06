@@ -12,3 +12,4 @@ The defining points of Impressionistic paintings which I aimed to emulate with m
 - An appearance or sense of the shifting of the atmosphere (or the passing of time), rather
 than frozen, finely-focused detail.
 - An 'unfinished' or 'raw' appearance.
+![impressionism-filter](img/impressionism-filter.jpg)
