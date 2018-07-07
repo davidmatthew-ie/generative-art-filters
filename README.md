@@ -1,8 +1,8 @@
 # Generative Art Filters
 
-Generative Art Filters is a Java desktop app built with Processing that allows you to apply artistic filters to an uploaded image or to a web cam capture.
+A Java desktop app built with Processing that allows you to apply artistic filters to an uploaded image or to a web cam capture.
 
-The application is organised into one primary sketch and three classes, each representing a modern art style and containing the necessary code to implement thefilter methods called in the main sketch. Two external libraries were used, the first (the user-contributed library ControlP5 by Andreas Schlegel) to aid with the construction of the user interface, and the second (the external Video library based on the GStreamer multimedia framework) to permit the user to capture an from a webcam or a camera connected to the computer.
+The application is organised into one primary sketch and three classes, each representing a modern art style and containing the necessary code to implement the filter methods called in the main sketch. Two external libraries were used, the first (the user-contributed library ControlP5 by Andreas Schlegel) to aid with the construction of the user interface, and the second (the external Video library based on the GStreamer multimedia framework) to permit the user to capture an image from a webcam or a camera connected to the computer.
 
 ### The Impressionism Filter
 With the Impressionism class, I used the Pshape class to define a 'brush' and, using an appropriate opacity and some randomly-varied vertices, managed to generate a free brush-stroke-like effect which I felt captured something of the Impressionist style. Two methods are available: one that applies the effect to the entire canvas automatically, and a second which allows the user to apply the effect manually.
@@ -34,4 +34,4 @@ With this class, I attempted to create an effect reminiscent of work such as tha
 Example output:
 ![abstract-expressionism-filter](img/abstract-expressionism-filter.jpg)
 
-I was happier with the aesthetic effect produced by this third filter more so than with any of the others.
+I was happier with the aesthetic effect produced by this third filter than those produced by the other two, as the results felt more refined while retaining something of the spontaneity associated with the movement.
